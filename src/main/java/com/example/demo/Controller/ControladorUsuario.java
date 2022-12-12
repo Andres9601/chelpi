@@ -32,4 +32,9 @@ public class ControladorUsuario {
 		}
 		
 	}
+	
+	@GetMapping(path="/mensaje")
+	public String mensaje(){
+		return "HOLA AZURE";
+	}
 }
